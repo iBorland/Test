@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        list = (ListView)findViewById(R.id.listVie);
+        list = (ListView)findViewById(R.id.listView);
 
         SimpleAdapter adapter = new SimpleAdapter(this, lis, android.R.layout.simple_list_item_2, new String[] {"Name", "Tel"},
         new int[] {android.R.id.text1, android.R.id.text2});
